@@ -1,0 +1,39 @@
+{
+  "label": "EURUSD / GBPUSD / AUDUSD / NZDUSD / USDCAD from fx_daily_fred.csv, 2016-01-04 to 2026-09-25",
+  "walk_forward": {
+    "net_return": -0.01798428180221893,
+    "gross_return": -0.014769383805598175,
+    "costs": 0.0032148979966207616,
+    "annual_return": -0.002080825993645166,
+    "annual_vol": 0.011434956405387376,
+    "sharpe": -0.1819706101078638,
+    "t_stat_mean": -0.5349706037388817,
+    "max_drawdown": 0.04464021479733075,
+    "trades": 8,
+    "win_rate": 0.625,
+    "profit_factor": 0.5491548588281893,
+    "avg_trade": -0.0022480352252773677,
+    "avg_hold_days": 13.25,
+    "stop_outs": 0,
+    "time_in_market": 0.048668503213957756,
+    "years": 8.642857142857142
+  },
+  "single_split": {
+    "net_return": 0.005086496625481238,
+    "gross_return": 0.017689231127979682,
+    "costs": 0.01260273450249845,
+    "annual_return": 0.0011945919381372526,
+    "annual_vol": 0.014298987307961211,
+    "sharpe": 0.08354381414634467,
+    "t_stat_mean": 0.17239072235138408,
+    "max_drawdown": 0.025267706179063678,
+    "trades": 63,
+    "win_rate": 0.6190476190476191,
+    "profit_factor": 1.0833705871017612,
+    "avg_trade": 8.073804167430517e-05,
+    "avg_hold_days": 12.301587301587302,
+    "stop_outs": 1,
+    "time_in_market": 0.6104380242311277,
+    "years": 4.257936507936508
+  }
+}

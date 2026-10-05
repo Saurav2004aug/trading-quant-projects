@@ -1,0 +1,6 @@
+model,roc_auc_mean,roc_auc_std,avg_precision_mean,avg_precision_std,machines_caught,machines_missed,false_alarms,median_warning_cycles
+"Logistic regression, engineered",0.9273,0.0405,0.7765,0.0593,0.975,0.0,0.025,30.0
+"Random forest, engineered",0.9425,0.0276,0.7703,0.0728,0.975,0.0,0.025,24.0
+"Random forest, raw",0.9108,0.0532,0.7244,0.1293,0.975,0.0,0.025,28.0
+"Logistic regression, raw",0.912,0.0503,0.7027,0.0955,1.0,0.0,0.0,26.5
+Raw vibration only (no model),0.9105,0.051,0.6927,0.0972,0.975,0.0,0.025,29.0

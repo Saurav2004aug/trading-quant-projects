@@ -1,0 +1,201 @@
+machine_id,failure_mode,life,degradation_cycles,warning_cycles,outcome,fold,model,threshold
+3,gradual,321,93,39,caught,0,Raw vibration only (no model),0.5169186453071215
+5,abrupt,312,23,16,caught,0,Raw vibration only (no model),0.5169186453071215
+15,gradual,150,64,48,caught,0,Raw vibration only (no model),0.5169186453071215
+19,abrupt,346,13,11,caught,0,Raw vibration only (no model),0.5169186453071215
+28,gradual,218,63,37,caught,0,Raw vibration only (no model),0.5169186453071215
+29,gradual,313,104,86,caught,0,Raw vibration only (no model),0.5169186453071215
+33,abrupt,253,18,11,caught,0,Raw vibration only (no model),0.5169186453071215
+38,gradual,256,91,57,caught,0,Raw vibration only (no model),0.5169186453071215
+3,gradual,321,93,42,caught,0,"Logistic regression, raw",0.41589026629218234
+5,abrupt,312,23,16,caught,0,"Logistic regression, raw",0.41589026629218234
+15,gradual,150,64,50,caught,0,"Logistic regression, raw",0.41589026629218234
+19,abrupt,346,13,10,caught,0,"Logistic regression, raw",0.41589026629218234
+28,gradual,218,63,35,caught,0,"Logistic regression, raw",0.41589026629218234
+29,gradual,313,104,79,caught,0,"Logistic regression, raw",0.41589026629218234
+33,abrupt,253,18,12,caught,0,"Logistic regression, raw",0.41589026629218234
+38,gradual,256,91,56,caught,0,"Logistic regression, raw",0.41589026629218234
+3,gradual,321,93,40,caught,0,"Random forest, raw",0.44059802514228974
+5,abrupt,312,23,16,caught,0,"Random forest, raw",0.44059802514228974
+15,gradual,150,64,53,caught,0,"Random forest, raw",0.44059802514228974
+19,abrupt,346,13,10,caught,0,"Random forest, raw",0.44059802514228974
+28,gradual,218,63,37,caught,0,"Random forest, raw",0.44059802514228974
+29,gradual,313,104,81,caught,0,"Random forest, raw",0.44059802514228974
+33,abrupt,253,18,12,caught,0,"Random forest, raw",0.44059802514228974
+38,gradual,256,91,49,caught,0,"Random forest, raw",0.44059802514228974
+3,gradual,321,93,49,caught,0,"Logistic regression, engineered",0.5941506028769352
+5,abrupt,312,23,20,caught,0,"Logistic regression, engineered",0.5941506028769352
+15,gradual,150,64,31,caught,0,"Logistic regression, engineered",0.5941506028769352
+19,abrupt,346,13,11,caught,0,"Logistic regression, engineered",0.5941506028769352
+28,gradual,218,63,34,caught,0,"Logistic regression, engineered",0.5941506028769352
+29,gradual,313,104,310,false alarm,0,"Logistic regression, engineered",0.5941506028769352
+33,abrupt,253,18,14,caught,0,"Logistic regression, engineered",0.5941506028769352
+38,gradual,256,91,39,caught,0,"Logistic regression, engineered",0.5941506028769352
+3,gradual,321,93,41,caught,0,"Random forest, engineered",0.4014628531238964
+5,abrupt,312,23,19,caught,0,"Random forest, engineered",0.4014628531238964
+15,gradual,150,64,48,caught,0,"Random forest, engineered",0.4014628531238964
+19,abrupt,346,13,59,false alarm,0,"Random forest, engineered",0.4014628531238964
+28,gradual,218,63,20,caught,0,"Random forest, engineered",0.4014628531238964
+29,gradual,313,104,53,caught,0,"Random forest, engineered",0.4014628531238964
+33,abrupt,253,18,14,caught,0,"Random forest, engineered",0.4014628531238964
+38,gradual,256,91,55,caught,0,"Random forest, engineered",0.4014628531238964
+1,abrupt,322,13,6,caught,1,Raw vibration only (no model),0.5097788250879973
+4,abrupt,163,9,139,false alarm,1,Raw vibration only (no model),0.5097788250879973
+11,gradual,339,166,108,caught,1,Raw vibration only (no model),0.5097788250879973
+14,gradual,307,133,108,caught,1,Raw vibration only (no model),0.5097788250879973
+21,abrupt,207,13,8,caught,1,Raw vibration only (no model),0.5097788250879973
+30,gradual,287,131,81,caught,1,Raw vibration only (no model),0.5097788250879973
+31,abrupt,231,16,13,caught,1,Raw vibration only (no model),0.5097788250879973
+34,abrupt,320,22,16,caught,1,Raw vibration only (no model),0.5097788250879973
+1,abrupt,322,13,6,caught,1,"Logistic regression, raw",0.4117696510164127
+4,abrupt,163,9,7,caught,1,"Logistic regression, raw",0.4117696510164127
+11,gradual,339,166,92,caught,1,"Logistic regression, raw",0.4117696510164127
+14,gradual,307,133,97,caught,1,"Logistic regression, raw",0.4117696510164127
+21,abrupt,207,13,8,caught,1,"Logistic regression, raw",0.4117696510164127
+30,gradual,287,131,69,caught,1,"Logistic regression, raw",0.4117696510164127
+31,abrupt,231,16,11,caught,1,"Logistic regression, raw",0.4117696510164127
+34,abrupt,320,22,15,caught,1,"Logistic regression, raw",0.4117696510164127
+1,abrupt,322,13,7,caught,1,"Random forest, raw",0.4305387775155191
+4,abrupt,163,9,24,false alarm,1,"Random forest, raw",0.4305387775155191
+11,gradual,339,166,102,caught,1,"Random forest, raw",0.4305387775155191
+14,gradual,307,133,104,caught,1,"Random forest, raw",0.4305387775155191
+21,abrupt,207,13,8,caught,1,"Random forest, raw",0.4305387775155191
+30,gradual,287,131,76,caught,1,"Random forest, raw",0.4305387775155191
+31,abrupt,231,16,9,caught,1,"Random forest, raw",0.4305387775155191
+34,abrupt,320,22,15,caught,1,"Random forest, raw",0.4305387775155191
+1,abrupt,322,13,8,caught,1,"Logistic regression, engineered",0.5837199352390056
+4,abrupt,163,9,7,caught,1,"Logistic regression, engineered",0.5837199352390056
+11,gradual,339,166,58,caught,1,"Logistic regression, engineered",0.5837199352390056
+14,gradual,307,133,83,caught,1,"Logistic regression, engineered",0.5837199352390056
+21,abrupt,207,13,9,caught,1,"Logistic regression, engineered",0.5837199352390056
+30,gradual,287,131,42,caught,1,"Logistic regression, engineered",0.5837199352390056
+31,abrupt,231,16,13,caught,1,"Logistic regression, engineered",0.5837199352390056
+34,abrupt,320,22,16,caught,1,"Logistic regression, engineered",0.5837199352390056
+1,abrupt,322,13,8,caught,1,"Random forest, engineered",0.4760937191123135
+4,abrupt,163,9,7,caught,1,"Random forest, engineered",0.4760937191123135
+11,gradual,339,166,27,caught,1,"Random forest, engineered",0.4760937191123135
+14,gradual,307,133,83,caught,1,"Random forest, engineered",0.4760937191123135
+21,abrupt,207,13,10,caught,1,"Random forest, engineered",0.4760937191123135
+30,gradual,287,131,24,caught,1,"Random forest, engineered",0.4760937191123135
+31,abrupt,231,16,13,caught,1,"Random forest, engineered",0.4760937191123135
+34,abrupt,320,22,16,caught,1,"Random forest, engineered",0.4760937191123135
+2,abrupt,313,11,8,caught,2,Raw vibration only (no model),0.5230879194398955
+6,abrupt,338,19,15,caught,2,Raw vibration only (no model),0.5230879194398955
+8,gradual,183,51,9,caught,2,Raw vibration only (no model),0.5230879194398955
+25,gradual,166,45,25,caught,2,Raw vibration only (no model),0.5230879194398955
+26,gradual,281,76,46,caught,2,Raw vibration only (no model),0.5230879194398955
+27,gradual,237,65,29,caught,2,Raw vibration only (no model),0.5230879194398955
+32,abrupt,326,16,13,caught,2,Raw vibration only (no model),0.5230879194398955
+37,abrupt,312,9,7,caught,2,Raw vibration only (no model),0.5230879194398955
+2,abrupt,313,11,7,caught,2,"Logistic regression, raw",0.44432035884622817
+6,abrupt,338,19,14,caught,2,"Logistic regression, raw",0.44432035884622817
+8,gradual,183,51,8,caught,2,"Logistic regression, raw",0.44432035884622817
+25,gradual,166,45,14,caught,2,"Logistic regression, raw",0.44432035884622817
+26,gradual,281,76,46,caught,2,"Logistic regression, raw",0.44432035884622817
+27,gradual,237,65,30,caught,2,"Logistic regression, raw",0.44432035884622817
+32,abrupt,326,16,14,caught,2,"Logistic regression, raw",0.44432035884622817
+37,abrupt,312,9,7,caught,2,"Logistic regression, raw",0.44432035884622817
+2,abrupt,313,11,6,caught,2,"Random forest, raw",0.5211964289035212
+6,abrupt,338,19,12,caught,2,"Random forest, raw",0.5211964289035212
+8,gradual,183,51,2,caught,2,"Random forest, raw",0.5211964289035212
+25,gradual,166,45,21,caught,2,"Random forest, raw",0.5211964289035212
+26,gradual,281,76,42,caught,2,"Random forest, raw",0.5211964289035212
+27,gradual,237,65,26,caught,2,"Random forest, raw",0.5211964289035212
+32,abrupt,326,16,12,caught,2,"Random forest, raw",0.5211964289035212
+37,abrupt,312,9,7,caught,2,"Random forest, raw",0.5211964289035212
+2,abrupt,313,11,8,caught,2,"Logistic regression, engineered",0.6335937098255178
+6,abrupt,338,19,14,caught,2,"Logistic regression, engineered",0.6335937098255178
+8,gradual,183,51,2,caught,2,"Logistic regression, engineered",0.6335937098255178
+25,gradual,166,45,14,caught,2,"Logistic regression, engineered",0.6335937098255178
+26,gradual,281,76,46,caught,2,"Logistic regression, engineered",0.6335937098255178
+27,gradual,237,65,34,caught,2,"Logistic regression, engineered",0.6335937098255178
+32,abrupt,326,16,14,caught,2,"Logistic regression, engineered",0.6335937098255178
+37,abrupt,312,9,7,caught,2,"Logistic regression, engineered",0.6335937098255178
+2,abrupt,313,11,8,caught,2,"Random forest, engineered",0.5966743111127281
+6,abrupt,338,19,15,caught,2,"Random forest, engineered",0.5966743111127281
+8,gradual,183,51,2,caught,2,"Random forest, engineered",0.5966743111127281
+25,gradual,166,45,13,caught,2,"Random forest, engineered",0.5966743111127281
+26,gradual,281,76,43,caught,2,"Random forest, engineered",0.5966743111127281
+27,gradual,237,65,36,caught,2,"Random forest, engineered",0.5966743111127281
+32,abrupt,326,16,13,caught,2,"Random forest, engineered",0.5966743111127281
+37,abrupt,312,9,7,caught,2,"Random forest, engineered",0.5966743111127281
+12,abrupt,270,7,4,caught,3,Raw vibration only (no model),0.5170732935858711
+16,gradual,317,98,24,caught,3,Raw vibration only (no model),0.5170732935858711
+18,gradual,176,53,33,caught,3,Raw vibration only (no model),0.5170732935858711
+23,gradual,312,133,54,caught,3,Raw vibration only (no model),0.5170732935858711
+24,abrupt,330,16,12,caught,3,Raw vibration only (no model),0.5170732935858711
+35,gradual,173,76,39,caught,3,Raw vibration only (no model),0.5170732935858711
+36,gradual,332,118,83,caught,3,Raw vibration only (no model),0.5170732935858711
+39,gradual,249,91,34,caught,3,Raw vibration only (no model),0.5170732935858711
+12,abrupt,270,7,4,caught,3,"Logistic regression, raw",0.49434312304566347
+16,gradual,317,98,40,caught,3,"Logistic regression, raw",0.49434312304566347
+18,gradual,176,53,24,caught,3,"Logistic regression, raw",0.49434312304566347
+23,gradual,312,133,41,caught,3,"Logistic regression, raw",0.49434312304566347
+24,abrupt,330,16,12,caught,3,"Logistic regression, raw",0.49434312304566347
+35,gradual,173,76,35,caught,3,"Logistic regression, raw",0.49434312304566347
+36,gradual,332,118,76,caught,3,"Logistic regression, raw",0.49434312304566347
+39,gradual,249,91,33,caught,3,"Logistic regression, raw",0.49434312304566347
+12,abrupt,270,7,3,caught,3,"Random forest, raw",0.6329313196383767
+16,gradual,317,98,32,caught,3,"Random forest, raw",0.6329313196383767
+18,gradual,176,53,16,caught,3,"Random forest, raw",0.6329313196383767
+23,gradual,312,133,39,caught,3,"Random forest, raw",0.6329313196383767
+24,abrupt,330,16,11,caught,3,"Random forest, raw",0.6329313196383767
+35,gradual,173,76,35,caught,3,"Random forest, raw",0.6329313196383767
+36,gradual,332,118,62,caught,3,"Random forest, raw",0.6329313196383767
+39,gradual,249,91,28,caught,3,"Random forest, raw",0.6329313196383767
+12,abrupt,270,7,5,caught,3,"Logistic regression, engineered",0.5136733640256274
+16,gradual,317,98,44,caught,3,"Logistic regression, engineered",0.5136733640256274
+18,gradual,176,53,33,caught,3,"Logistic regression, engineered",0.5136733640256274
+23,gradual,312,133,26,caught,3,"Logistic regression, engineered",0.5136733640256274
+24,abrupt,330,16,13,caught,3,"Logistic regression, engineered",0.5136733640256274
+35,gradual,173,76,39,caught,3,"Logistic regression, engineered",0.5136733640256274
+36,gradual,332,118,82,caught,3,"Logistic regression, engineered",0.5136733640256274
+39,gradual,249,91,38,caught,3,"Logistic regression, engineered",0.5136733640256274
+12,abrupt,270,7,5,caught,3,"Random forest, engineered",0.48623486932289006
+16,gradual,317,98,41,caught,3,"Random forest, engineered",0.48623486932289006
+18,gradual,176,53,33,caught,3,"Random forest, engineered",0.48623486932289006
+23,gradual,312,133,26,caught,3,"Random forest, engineered",0.48623486932289006
+24,abrupt,330,16,12,caught,3,"Random forest, engineered",0.48623486932289006
+35,gradual,173,76,43,caught,3,"Random forest, engineered",0.48623486932289006
+36,gradual,332,118,78,caught,3,"Random forest, engineered",0.48623486932289006
+39,gradual,249,91,38,caught,3,"Random forest, engineered",0.48623486932289006
+0,gradual,329,107,34,caught,4,Raw vibration only (no model),0.5188345951806553
+7,gradual,202,91,42,caught,4,Raw vibration only (no model),0.5188345951806553
+9,gradual,165,68,48,caught,4,Raw vibration only (no model),0.5188345951806553
+10,gradual,309,80,24,caught,4,Raw vibration only (no model),0.5188345951806553
+13,abrupt,272,20,11,caught,4,Raw vibration only (no model),0.5188345951806553
+17,gradual,332,113,52,caught,4,Raw vibration only (no model),0.5188345951806553
+20,gradual,319,144,77,caught,4,Raw vibration only (no model),0.5188345951806553
+22,gradual,245,62,26,caught,4,Raw vibration only (no model),0.5188345951806553
+0,gradual,329,107,24,caught,4,"Logistic regression, raw",0.4790354661309591
+7,gradual,202,91,47,caught,4,"Logistic regression, raw",0.4790354661309591
+9,gradual,165,68,40,caught,4,"Logistic regression, raw",0.4790354661309591
+10,gradual,309,80,25,caught,4,"Logistic regression, raw",0.4790354661309591
+13,abrupt,272,20,12,caught,4,"Logistic regression, raw",0.4790354661309591
+17,gradual,332,113,60,caught,4,"Logistic regression, raw",0.4790354661309591
+20,gradual,319,144,75,caught,4,"Logistic regression, raw",0.4790354661309591
+22,gradual,245,62,28,caught,4,"Logistic regression, raw",0.4790354661309591
+0,gradual,329,107,33,caught,4,"Random forest, raw",0.5875143557278224
+7,gradual,202,91,42,caught,4,"Random forest, raw",0.5875143557278224
+9,gradual,165,68,35,caught,4,"Random forest, raw",0.5875143557278224
+10,gradual,309,80,24,caught,4,"Random forest, raw",0.5875143557278224
+13,abrupt,272,20,11,caught,4,"Random forest, raw",0.5875143557278224
+17,gradual,332,113,55,caught,4,"Random forest, raw",0.5875143557278224
+20,gradual,319,144,66,caught,4,"Random forest, raw",0.5875143557278224
+22,gradual,245,62,28,caught,4,"Random forest, raw",0.5875143557278224
+0,gradual,329,107,30,caught,4,"Logistic regression, engineered",0.4987567758878319
+7,gradual,202,91,22,caught,4,"Logistic regression, engineered",0.4987567758878319
+9,gradual,165,68,48,caught,4,"Logistic regression, engineered",0.4987567758878319
+10,gradual,309,80,37,caught,4,"Logistic regression, engineered",0.4987567758878319
+13,abrupt,272,20,16,caught,4,"Logistic regression, engineered",0.4987567758878319
+17,gradual,332,113,45,caught,4,"Logistic regression, engineered",0.4987567758878319
+20,gradual,319,144,84,caught,4,"Logistic regression, engineered",0.4987567758878319
+22,gradual,245,62,38,caught,4,"Logistic regression, engineered",0.4987567758878319
+0,gradual,329,107,19,caught,4,"Random forest, engineered",0.4622291961402453
+7,gradual,202,91,23,caught,4,"Random forest, engineered",0.4622291961402453
+9,gradual,165,68,48,caught,4,"Random forest, engineered",0.4622291961402453
+10,gradual,309,80,37,caught,4,"Random forest, engineered",0.4622291961402453
+13,abrupt,272,20,16,caught,4,"Random forest, engineered",0.4622291961402453
+17,gradual,332,113,44,caught,4,"Random forest, engineered",0.4622291961402453
+20,gradual,319,144,64,caught,4,"Random forest, engineered",0.4622291961402453
+22,gradual,245,62,38,caught,4,"Random forest, engineered",0.4622291961402453

@@ -1,0 +1,39 @@
+{
+  "label": "synthetic regime-switching demo (not market data)",
+  "walk_forward": {
+    "net_return": 0.019787055387920895,
+    "gross_return": 0.024985657337690186,
+    "costs": 0.005198601949769294,
+    "annual_return": 0.0024981653094970266,
+    "annual_vol": 0.011631174935311272,
+    "sharpe": 0.21478185337173517,
+    "t_stat_mean": 0.6044739418853621,
+    "max_drawdown": 0.03178020894908479,
+    "trades": 13,
+    "win_rate": 0.7692307692307693,
+    "profit_factor": 1.5057458440261176,
+    "avg_trade": 0.001522081183686222,
+    "avg_hold_days": 12.615384615384615,
+    "stop_outs": 0,
+    "time_in_market": 0.08216432865731463,
+    "years": 7.920634920634921
+  },
+  "single_split": {
+    "net_return": 0.04163915475599955,
+    "gross_return": 0.05402554374399618,
+    "costs": 0.012386388987996622,
+    "annual_return": 0.010493066998511887,
+    "annual_vol": 0.02031638354038164,
+    "sharpe": 0.5164830137044547,
+    "t_stat_mean": 1.02885879035802,
+    "max_drawdown": 0.024668935253463635,
+    "trades": 31,
+    "win_rate": 0.7741935483870968,
+    "profit_factor": 1.8254675601334702,
+    "avg_trade": 0.0013431985405161146,
+    "avg_hold_days": 10.483870967741936,
+    "stop_outs": 0,
+    "time_in_market": 0.325,
+    "years": 3.9682539682539684
+  }
+}

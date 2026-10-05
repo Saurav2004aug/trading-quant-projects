@@ -1,0 +1,39 @@
+{
+  "label": "EURUSD=X / GBPUSD=X (10y, Yahoo Finance)",
+  "walk_forward": {
+    "net_return": 0.013248895970434158,
+    "gross_return": 0.015244941278777215,
+    "costs": 0.0019960453083430574,
+    "annual_return": 0.0015921420050307143,
+    "annual_vol": 0.004696328655973908,
+    "sharpe": 0.3390184379462986,
+    "t_stat_mean": 0.9779626379683931,
+    "max_drawdown": 0.006906001571225716,
+    "trades": 5,
+    "win_rate": 0.8,
+    "profit_factor": 17.435805878171006,
+    "avg_trade": 0.0026497791940868322,
+    "avg_hold_days": 9.2,
+    "stop_outs": 0,
+    "time_in_market": 0.021936099189318072,
+    "years": 8.321428571428571
+  },
+  "single_split": {
+    "net_return": 0.05535784933629377,
+    "gross_return": 0.06736563049502971,
+    "costs": 0.012007781158735938,
+    "annual_return": 0.013400747389765637,
+    "annual_vol": 0.014363567501827521,
+    "sharpe": 0.9329678986825954,
+    "t_stat_mean": 1.8962334146883053,
+    "max_drawdown": 0.010167290676741993,
+    "trades": 30,
+    "win_rate": 0.7666666666666667,
+    "profit_factor": 4.9677150379617485,
+    "avg_trade": 0.0018452616445431259,
+    "avg_hold_days": 10.633333333333333,
+    "stop_outs": 0,
+    "time_in_market": 0.30643611911623436,
+    "years": 4.130952380952381
+  }
+}

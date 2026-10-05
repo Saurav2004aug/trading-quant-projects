@@ -1,0 +1,32 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - 01_options_greeks_simulator
+          - 02_pairs_trading_stat_arb
+          - 03_monte_carlo_risk_of_ruin
+          - 04_prop_firm_trade_journal
+          - 05_iot_predictive_maintenance
+          - 06_etl_pipeline_dashboard
+          - 07_nifty_volatility_risk_premium
+          - 08_order_book_imbalance
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        working-directory: ${{ matrix.project }}
+        run: pip install -r requirements.txt pytest
+      - name: Test
+        working-directory: ${{ matrix.project }}
+        run: pytest -q

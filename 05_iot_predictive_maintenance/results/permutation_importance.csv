@@ -1,0 +1,16 @@
+,mean,std
+vibration_g_roll_std,0.0664,0.0602
+vibration_g_slope,0.0561,0.0461
+temperature_c_slope,0.0262,0.0217
+vibration_g_load_adj,0.0256,0.0416
+vibration_g,0.0188,0.0329
+temperature_c_roll_std,0.016,0.0093
+temperature_c_load_adj,0.0051,0.0375
+vibration_g_baseline_z,0.0025,0.0279
+load,0.0008,0.001
+temperature_c,-0.0003,0.0251
+vibration_g_baseline_ratio,-0.0013,0.0176
+vibration_g_roll_mean,-0.0022,0.0179
+temperature_c_baseline_z,-0.0048,0.021
+temperature_c_roll_mean,-0.0061,0.027
+temperature_c_baseline_ratio,-0.0072,0.0148

@@ -1,0 +1,39 @@
+{
+  "label": "EURUSD / GBPUSD from fx_daily_fred.csv, 2006-01-03 to 2026-09-25",
+  "walk_forward": {
+    "net_return": 0.021382644390896648,
+    "gross_return": 0.026579925116586214,
+    "costs": 0.005197280725689571,
+    "annual_return": 0.001369358675096812,
+    "annual_vol": 0.006391148041199532,
+    "sharpe": 0.21425863808340168,
+    "t_stat_mean": 0.8466627210112608,
+    "max_drawdown": 0.029012624839609664,
+    "trades": 13,
+    "win_rate": 0.6923076923076923,
+    "profit_factor": 2.2194407317245655,
+    "avg_trade": 0.0016448187992997422,
+    "avg_hold_days": 14.692307692307692,
+    "stop_outs": 0,
+    "time_in_market": 0.048538754764930116,
+    "years": 15.615079365079366
+  },
+  "single_split": {
+    "net_return": 0.0,
+    "gross_return": 0.0,
+    "costs": 0.0,
+    "annual_return": 0.0,
+    "annual_vol": 0.0,
+    "sharpe": NaN,
+    "t_stat_mean": NaN,
+    "max_drawdown": 0.0,
+    "trades": 0,
+    "win_rate": NaN,
+    "profit_factor": NaN,
+    "avg_trade": NaN,
+    "avg_hold_days": NaN,
+    "stop_outs": 0,
+    "time_in_market": 0.0,
+    "years": 8.246031746031745
+  }
+}

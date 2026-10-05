@@ -1,0 +1,39 @@
+{
+  "label": "AUDUSD / NZDUSD from fx_daily_fred.csv, 2016-01-04 to 2026-09-25",
+  "walk_forward": {
+    "net_return": 0.005782439932150128,
+    "gross_return": 0.006184212793597405,
+    "costs": 0.0004017728614472769,
+    "annual_return": 0.0006690426367777008,
+    "annual_vol": 0.0016306570580413415,
+    "sharpe": 0.41029021613000555,
+    "t_stat_mean": 1.2062013997816452,
+    "max_drawdown": 0.0008363646051725278,
+    "trades": 1,
+    "win_rate": 1.0,
+    "profit_factor": NaN,
+    "avg_trade": 0.005782439932150128,
+    "avg_hold_days": 4.0,
+    "stop_outs": 0,
+    "time_in_market": 0.0018365472910927456,
+    "years": 8.642857142857142
+  },
+  "single_split": {
+    "net_return": -0.028370742053418465,
+    "gross_return": -0.01759138726481878,
+    "costs": 0.010779354788599683,
+    "annual_return": -0.006663026092694737,
+    "annual_vol": 0.016538158576751404,
+    "sharpe": -0.40288802781594557,
+    "t_stat_mean": -0.8313500987667587,
+    "max_drawdown": 0.03740708997893228,
+    "trades": 27,
+    "win_rate": 0.6296296296296297,
+    "profit_factor": 0.6130566872738484,
+    "avg_trade": -0.001050768224200684,
+    "avg_hold_days": 16.444444444444443,
+    "stop_outs": 0,
+    "time_in_market": 0.41379310344827586,
+    "years": 4.257936507936508
+  }
+}

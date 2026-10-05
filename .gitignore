@@ -1,0 +1,52 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+__MACOSX/
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Generated local database and transient SQLite files
+# Remove this rule if the project should ship a prebuilt demo database.
+06_etl_pipeline_dashboard/data/warehouse.db
+*.db-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Downloaded/raw datasets that should be regenerated or obtained from source.
+# Keep curated sample data and documented result artifacts tracked.
+08_order_book_imbalance/data/raw/
+08_order_book_imbalance/data/_mirror/

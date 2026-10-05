@@ -1,0 +1,3 @@
+50d5a5ab7956761a10d29cae4c3c2b1fff1712c21858abbabf9bb307178fb650  data/cointegrated_pair.csv
+c1118e806432cedb1f9d3603b18cd9ab91d02e59d5ece31d9a3a31837fc44050  data/fx_daily_fred.csv
+31c7ab4588584ff3f72c07729f886d1c4617dbedd180675648ab712441ca5493  data/uncorrelated_pair.csv
