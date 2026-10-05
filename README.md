@@ -1,7 +1,5 @@
 # Saurav Anand: Quantitative Trading and Research Projects
 
-# Saurav Anand: Quantitative Trading and Research Projects
-
 [![Tests](https://github.com/Saurav2004aug/trading-quant-projects/actions/workflows/tests.yml/badge.svg)](https://github.com/Saurav2004aug/trading-quant-projects/actions)
 
 ## About
