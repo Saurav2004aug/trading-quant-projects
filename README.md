@@ -1,5 +1,30 @@
 # Saurav Anand: Quantitative Trading and Research Projects
 
+# Saurav Anand: Quantitative Trading and Research Projects
+
+[![Tests](https://github.com/Saurav2004aug/trading-quant-projects/actions/workflows/tests.yml/badge.svg)](https://github.com/Saurav2004aug/trading-quant-projects/actions)
+
+## About
+
+B.Tech student at IIIT Ranchi focused on quantitative trading, statistical
+research and market analytics.
+
+My main interests are **Forex, Gold and Crypto**, with a focus on:
+- Statistical arbitrage
+- Derivatives and volatility
+- Risk management
+- Market microstructure
+- Quantitative backtesting
+- Data-driven trading research
+
+## Tech Stack
+
+**Python:** NumPy, Pandas, SciPy, Matplotlib, scikit-learn  
+**Quant Research:** Statistical arbitrage, volatility modelling, Monte Carlo,
+options pricing, backtesting, risk analytics  
+**Data:** Yahoo Finance, Federal Reserve FX data, NSE datasets, LOBSTER  
+**Engineering:** pytest, GitHub Actions, reproducible pipelines
+
 Eight self-contained projects covering volatility trading, market
 microstructure, statistical arbitrage, derivatives hedging and risk.
 The headline projects run on **real market data**: NSE option prices,
